@@ -32,8 +32,6 @@ export const GET = async (req: Request) => {
   try {
     const requestUrl = new URL(req.url);
     const { toPubkey } = validatedQueryParams(requestUrl);
-    console.log(toPubkey);
-    console.log(toPubkey == DEFAULT_SOL_ADDRESS);
     const baseHref = new URL(
       `/api/actions/transfer-sol`,
       requestUrl.origin
