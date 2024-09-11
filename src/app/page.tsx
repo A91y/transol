@@ -27,6 +27,23 @@ export default function Home() {
           </a>
         </div>
       </main>
+      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
+        <a
+          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+          href="https://github.com/A91y/transol"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            aria-hidden
+            src="https://nextjs.org/icons/github.svg"
+            alt="GitHub icon"
+            width={16}
+            height={16}
+          />
+          View on GitHub
+        </a>
+      </footer>
     </div>
   );
 }
