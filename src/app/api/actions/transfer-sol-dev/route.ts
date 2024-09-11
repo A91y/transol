@@ -33,7 +33,7 @@ export const GET = async (req: Request) => {
     const requestUrl = new URL(req.url);
     const { toPubkey } = validatedQueryParams(requestUrl);
     const baseHref = new URL(
-      `/api/actions/transfer-sol`,
+      `/api/actions/transfer-sol-dev`,
       requestUrl.origin
     ).toString();
 
