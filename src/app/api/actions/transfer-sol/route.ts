@@ -18,7 +18,7 @@ import {
   SystemProgram,
   Transaction,
 } from "@solana/web3.js";
-// import { DEFAULT_SOL_ADDRESS, DEFAULT_SOL_AMOUNT } from "./const";
+
 const DEFAULT_SOL_ADDRESS: PublicKey = new PublicKey(
   "11111111111111111111111111111111" // devnet wallet
 );
