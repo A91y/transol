@@ -20,7 +20,7 @@ import {
 } from "@solana/web3.js";
 
 const DEFAULT_SOL_ADDRESS: PublicKey = new PublicKey(
-  "11111111111111111111111111111111" // devnet wallet
+  "11111111111111111111111111111111"
 );
 
 const DEFAULT_SOL_AMOUNT: number = 1.0;
