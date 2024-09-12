@@ -1,7 +1,3 @@
-/**
- * Solana Actions Example
- */
-
 import {
   ActionPostResponse,
   createPostResponse,
